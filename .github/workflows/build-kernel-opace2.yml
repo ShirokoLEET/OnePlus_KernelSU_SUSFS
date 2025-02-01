@@ -2,6 +2,7 @@ name: Build OnePlus Ace 2 Android 12 5.10 Kernel
 
 on:
   workflow_call:  # This allows this workflow to be called from another workflow
+  workflow_dispatch:
   
 jobs:
   build-kernel-a12-5-10-kernelsu-susfs:
