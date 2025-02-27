@@ -48,7 +48,7 @@ jobs:
           echo "Cloning AnyKernel3 and other dependencies..."
     
           # Define the branch names using the matrix values
-          ANYKERNEL_BRANCH="android14-6.1"
+          ANYKERNEL_BRANCH="14.0.0-sultan"
           SUSFS_BRANCH="gki-android14-6.1"
 
           # Debug print the branches
